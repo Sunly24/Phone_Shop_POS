@@ -1,0 +1,87 @@
+.main-sidebar {
+    position: fixed;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.sidebar {
+    height: calc(100vh - 4rem);
+    overflow-y: auto;
+    padding-bottom: 2rem;
+}
+
+/* Custom scrollbar for sidebar */
+.sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Adjust main content to not overlap with fixed sidebar */
+.content-wrapper {
+    margin-left: 250px;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+/* For mobile responsiveness */
+@media (max-width: 991.98px) {
+    .content-wrapper {
+        margin-left: 0;
+    }
+}
+
+/* Profile Photo Sizing Fix - Maintain consistent size when sidebar is collapsed */
+.user-panel img {
+    width: 2.1rem !important;
+    height: 2.1rem !important;
+    min-width: 2.1rem !important;
+    min-height: 2.1rem !important;
+    object-fit: cover;
+}
+
+/* Center the profile photo when sidebar is collapsed */
+.sidebar-mini.sidebar-collapse .main-sidebar .user-panel {
+    text-align: center;
+}
+
+.sidebar-mini.sidebar-collapse .main-sidebar .user-panel .image {
+    display: block !important;
+    float: none !important;
+    padding-left: 0 !important;
+    width: 100%;
+    text-align: center;
+}
+
+/* Ensure profile photo stays consistent size during transitions */
+.sidebar-mini.sidebar-collapse .main-sidebar .user-panel img {
+    width: 2.1rem !important;
+    height: 2.1rem !important;
+    margin: 0 auto;
+}
+
+/* When sidebar expands on hover, maintain proper layout */
+.sidebar-mini.sidebar-collapse .main-sidebar:not(.sidebar-no-expand):hover .user-panel,
+.sidebar-mini.sidebar-collapse .main-sidebar:not(.sidebar-no-expand).sidebar-focused .user-panel {
+    text-align: left;
+}
+
+.sidebar-mini.sidebar-collapse .main-sidebar:not(.sidebar-no-expand):hover .user-panel .image,
+.sidebar-mini.sidebar-collapse .main-sidebar:not(.sidebar-no-expand).sidebar-focused .user-panel .image {
+    display: inline-block !important;
+    padding-left: 0.8rem;
+    width: auto;
+    text-align: left;
+}

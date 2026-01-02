@@ -1,0 +1,229 @@
+{
+  "menu": {
+    "dashboard": "仪表板",
+    "setting": "设置",
+    "product": "产品",
+    "list": "列表",
+    "create": "创建",
+    "category": "分类",
+    "color": "颜色",
+    "authentication": "认证",
+    "user": "用户",
+    "role": "角色",
+    "customer": "客户",
+    "brand": "品牌",
+    "maker": "制造商",
+    "size": "尺寸",
+    "order": "订单",
+    "invoice": "发票",
+    "inventory": "库存",
+    "verify": "验证",
+    "notification": "通知",
+    "report": "报告",
+    "export": "导出",
+    "import": "导入",
+    "telegram": "电报",
+    "khqr": "KHQR",
+    "coupon": "优惠券"
+  },
+  "common": {
+    "search": "搜索",
+    "admin": "管理员"
+  },
+  "products": {
+    "title": "产品列表",
+    "searchPlaceholder": "搜索手机标题",
+    "allColors": "所有颜色",
+    "filter": "筛选",
+    "table": {
+      "id": "编号",
+      "image": "图片",
+      "title": "标题",
+      "code": "代码",
+      "price": "价格",
+      "stock": "库存",
+      "updateStock": "更新库存",
+      "status": "状态",
+      "actions": "操作"
+    },
+    "status": {
+      "active": "活跃",
+      "inactive": "非活跃"
+    },
+    "actions": {
+      "detail": "详情",
+      "edit": "编辑",
+      "delete": "删除",
+      "stock": "库存"
+    },
+    "noProductsFound": "未找到产品。",
+    "confirmDelete": "确认删除",
+    "confirmDeleteMessage": "您确定要删除",
+    "cancel": "取消",
+    "yesDelete": "是的，删除",
+    "updateStockTitle": "更新库存",
+    "updateStockDesc": "调整此产品的库存水平",
+    "product": "产品",
+    "color": "颜色",
+    "currentStock": "当前库存",
+    "newStockQuantity": "新库存数量",
+    "enterNewQuantity": "输入新数量",
+    "updateStock": "更新库存",
+    "totalRows": "总计",
+    "rows": "行",
+    "rowsPerPage": "每页行数：",
+    "pageOf": "页"
+  },  "categories": {
+    "title": "分类列表",
+    "searchPlaceholder": "搜索分类",
+    "table": {
+      "id": "编号",
+      "title": "标题",
+      "actions": "操作"
+    },
+    "actions": {
+      "edit": "编辑",
+      "delete": "删除"
+    },
+    "noCategoriesFound": "未找到分类。",
+    "confirmDelete": "确认删除",
+    "confirmDeleteMessage": "您确定要删除",
+    "cancel": "取消",
+    "yesDelete": "是的，删除",
+    "totalRows": "总计",
+    "rows": "行",
+    "rowsPerPage": "每页行数：",
+    "pageOf": "页"
+  },  "colors": {
+    "title": "颜色列表",
+    "searchPlaceholder": "按颜色标题搜索",
+    "table": {
+      "id": "编号",
+      "colorTitle": "颜色标题",
+      "createdAt": "创建时间",
+      "actions": "操作"
+    },
+    "actions": {
+      "edit": "编辑",
+      "delete": "删除"
+    },
+    "noColorsFound": "未找到颜色。",
+    "confirmDelete": "确认删除",
+    "confirmDeleteMessage": "您确定要删除",
+    "cancel": "取消",
+    "yesDelete": "是的，删除",
+    "totalRows": "总计",
+    "rows": "行",
+    "rowsPerPage": "每页行数：",
+    "pageOf": "页"
+  },
+  "invoices": {
+    "title": "发票列表",
+    "searchPlaceholder": "按发票ID或客户搜索",
+    "table": {
+      "id": "发票ID",
+      "orderId": "订单ID",
+      "customer": "客户",
+      "subTotal": "小计",
+      "totalAmount": "总金额",
+      "currency": "货币",
+      "status": "付款状态",
+      "createdAt": "创建时间",
+      "actions": "操作"
+    },
+    "status": {
+      "paid": "已付款",
+      "unpaid": "未付款"
+    },
+    "actions": {
+      "view": "查看",
+      "print": "打印",
+      "download": "下载"
+    },
+    "noInvoicesFound": "未找到发票。",
+    "totalRows": "总计",
+    "rows": "行",
+    "rowsPerPage": "每页行数：",
+    "pageOf": "页"
+  },  "inventory": {
+    "title": "库存列表",
+    "searchPlaceholder": "按产品标题搜索",
+    "table": {
+      "id": "编号",
+      "productTitle": "产品标题",
+      "productCode": "产品代码",
+      "currentStock": "当前库存",
+      "quantityBooked": "预订数量",
+      "availableStock": "可用库存",
+      "status": "状态",
+      "lastUpdated": "最后更新",
+      "actions": "操作"
+    },
+    "status": {
+      "inStock": "有库存",
+      "lowStock": "库存不足",
+      "outOfStock": "缺货"
+    },
+    "actions": {
+      "updateStock": "更新库存",
+      "viewHistory": "查看历史"
+    },
+    "noInventoryFound": "未找到库存记录。",
+    "updateStock": {
+      "title": "更新库存",
+      "currentStock": "当前库存",
+      "newQuantity": "新数量",
+      "enterQuantity": "输入新数量",
+      "update": "更新",
+      "cancel": "取消"
+    },
+    "totalRows": "总计",
+    "rows": "行",
+    "rowsPerPage": "每页行数：",
+    "pageOf": "页"
+  },
+  "orders": {
+    "title": "订单列表",
+    "searchPlaceholder": "按订单ID或客户搜索",
+    "table": {
+      "id": "订单ID",
+      "customer": "客户",
+      "items": "商品",
+      "subTotal": "小计",
+      "discount": "折扣",
+      "total": "总计",
+      "status": "状态",
+      "date": "日期",
+      "actions": "操作"
+    },
+    "status": {
+      "paid": "已付款",
+      "unpaid": "未付款",
+      "pending": "待处理",
+      "cancelled": "已取消"
+    },
+    "actions": {
+      "view": "查看",
+      "edit": "编辑",
+      "delete": "删除",
+      "invoice": "发票"
+    },
+    "noOrdersFound": "未找到订单。",
+    "confirmDelete": "确认删除",
+    "confirmDeleteMessage": "您确定要删除订单",
+    "cancel": "取消",
+    "yesDelete": "是的，删除",
+    "export": {
+      "excel": "导出Excel",
+      "pdf": "导出PDF"
+    },
+    "totalRows": "总计",
+    "rows": "行",
+    "rowsPerPage": "每页行数：",
+    "pageOf": "页"
+  },
+  "footer": {
+    "copyright": "版权所有",
+    "allRightsReserved": "保留所有权利。"
+  }
+}

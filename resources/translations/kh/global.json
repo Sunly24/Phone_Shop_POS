@@ -1,0 +1,388 @@
+{
+  "menu": {
+    "dashboard": "ផ្ទាំងគ្រប់គ្រង",
+    "setting": "ការកំណត់",
+    "system": "ប្រព័ន្ធ",
+    "audit_logs": "ការត្រួតពិនិត្យ",
+    "product": "ផលិតផល",
+    "list": "បញ្ជី",
+    "create": "បង្កើត",
+    "category": "ប្រភេទ",
+    "color": "ពណ៌",
+    "authentication": "ការផ្ទៀងផ្ទាត់",
+    "user": "អ្នកប្រើប្រាស់",
+    "role": "តួនាទី",
+    "customer": "អតិថិជន",
+    "brand": "ម៉ាក",
+    "maker": "អ្នកផលិត",
+    "size": "ទំហំ",
+    "order": "ការបញ្ជាទិញ",
+    "invoice": "វិក្កយបត្រ",
+    "inventory": "ស្តុក",
+    "verify": "ផ្ទៀងផ្ទាត់",
+    "telegram": "តេឡេក្រាម",
+    "verifyKey": "ផ្ទៀងផ្ទាត់សោ"
+  },
+  
+  "common": {
+    "search": "ស្វែងរក",
+    "admin": "អ្នកគ្រប់គ្រង",
+    "export": "ទាញយក"
+  },
+
+  "export": {
+    "pdf.title": "ទាញយក PDF",
+    "pdf.description": "PDF Spreadsheet",
+    "excel.title": "ទាញយក Excel",
+    "excel.description": "Microsoft Excel Spreadsheet"
+  },
+
+  "products": {
+    "title": "បញ្ជីផលិតផល",
+    "searchPlaceholder": "ស្វែងរកចំណងជើងទូរស័ព្ទ",
+    "allColors": "ពណ៌ទាំងអស់",
+    "filter": "តម្រង",
+    "import": "បញ្ចូល",
+    "manageAndTrack": "គ្រប់គ្រង និងតាមដានផលិតផលទាំងអស់នៅក្នុងស្តុក",
+    "totalProducts": "ផលិតផលសរុប",
+    "totalStock": "ស្តុកសរុប",
+    "table": {
+      "id": "លេខសម្គាល់",
+      "image": "រូបភាព",
+      "title": "ចំណងជើង",
+      "code": "កូដ",
+      "price": "តម្លៃ",
+      "stock": "ស្តុក",
+      "updateStock": "ធ្វើបច្ចុប្បន្នភាពស្តុក",
+      "status": "ស្ថានភាព",
+      "actions": "សកម្មភាព"
+    },
+    "status": {
+      "active": "សកម្ម",
+      "inactive": "អសកម្ម"
+    },
+    "actions": {
+      "detail": "ព័ត៌មានលម្អិត",
+      "edit": "កែសម្រួល",
+      "delete": "លុប",
+      "stock": "ស្តុក"
+    },
+    "noProductsFound": "រកមិនឃើញផលិតផលទេ។",
+    "confirmDelete": "បញ្ជាក់ការលុប",
+    "confirmDeleteMessage": "តើអ្នកប្រាកដថាចង់លុប",
+    "cancel": "បោះបង់",
+    "yesDelete": "បាទ/ចាស លុប",
+    "updateStockTitle": "ធ្វើបច្ចុប្បន្នភាពស្តុក",
+    "updateStockDesc": "កែសម្រួលកម្រិតស្តុកសម្រាប់ផលិតផលនេះ",
+    "product": "ផលិតផល",
+    "color": "ពណ៌",
+    "currentStock": "ស្តុកបច្ចុប្បន្ន",
+    "newStockQuantity": "បរិមាណស្តុកថ្មី",
+    "enterNewQuantity": "បញ្ចូលបរិមាណថ្មី",
+    "updateStock": "ធ្វើបច្ចុប្បន្នភាពស្តុក",
+    "totalRows": "សរុប",
+    "rows": "ជួរ",
+    "rowsPerPage": "ជួរក្នុងមួយទំព័រ៖",
+    "pageOf": "ទំព័រ",
+    "Of": "/"
+  },  
+  
+  "categories": {
+    "title": "បញ្ជីប្រភេទ",
+    "searchPlaceholder": "ស្វែងរកប្រភេទ",
+    "manageAndTrack": "គ្រប់គ្រង និងរៀបចំប្រភេទផលិតផល",
+    "totalCategories": "ប្រភេទសរុប",
+    "table": {
+      "id": "លេខសម្គាល់",
+      "title": "ចំណងជើង",
+      "actions": "សកម្មភាព"
+    },
+    "actions": {
+      "edit": "កែសម្រួល",
+      "delete": "លុប"
+    },
+    "noCategoriesFound": "រកមិនឃើញប្រភេទទេ។",
+    "confirmDelete": "បញ្ជាក់ការលុប",
+    "confirmDeleteMessage": "តើអ្នកប្រាកដថាចង់លុប",
+    "cancel": "បោះបង់",
+    "yesDelete": "បាទ/ចាស លុប",
+    "totalRows": "សរុប",
+    "rows": "ជួរ",
+    "rowsPerPage": "ជួរក្នុងមួយទំព័រ៖",
+    "pageOf": "ទំព័រ",
+    "Of": "/"
+  },  
+  
+  "brands": {
+    "title": "បញ្ជីម៉ាក",
+    "searchPlaceholder": "ស្វែងរកម៉ាកផលិតផល",
+    "manageAndTrack": "គ្រប់គ្រង និងតាមដានម៉ាកផលិតផលទាំងអស់",
+    "totalBrands": "ម៉ាកសរុប",
+    "table": {
+      "id": "លេខសម្គាល់",
+      "title": "ចំណងជើង",
+      "maker": "អ្នកផលិត",
+      "actions": "សកម្មភាព"
+    },
+    "actions": {
+      "edit": "កែសម្រួល",
+      "delete": "លុប"
+    },
+    "noBrandsFound": "រកមិនឃើញម៉ាកទេ។",
+    "confirmDelete": "បញ្ជាក់ការលុប",
+    "confirmDeleteMessage": "តើអ្នកប្រាកដថាចង់លុប",
+    "cancel": "បោះបង់",
+    "yesDelete": "បាទ/ចាស លុប",
+    "totalRows": "សរុប",
+    "rows": "ជួរ",
+    "rowsPerPage": "ជួរក្នុងមួយទំព័រ៖",
+    "pageOf": "ទំព័រ",
+    "Of": "/"
+  },
+
+  "makers": {
+    "title": "បញ្ជីអ្នកផលិត",
+    "searchPlaceholder": "ស្វែងរកអ្នកផលិត",
+    "manageAndTrack": "គ្រប់គ្រង និងតាមដានអ្នកផលិតផលិតផលទាំងអស់",
+    "totalMakers": "អ្នកផលិតសរុប",
+    "table": {
+      "id": "លេខសម្គាល់",
+      "title": "អ្នកផលិត",
+      "actions": "សកម្មភាព"
+    },
+    "actions": {
+      "edit": "កែសម្រួល",
+      "delete": "លុប"
+    },
+    "noMakersFound": "រកមិនឃើញអ្នកផលិតទេ។",
+    "confirmDelete": "បញ្ជាក់ការលុប",
+    "confirmDeleteMessage": "តើអ្នកប្រាកដថាចង់លុប",
+    "cancel": "បោះបង់",
+    "yesDelete": "បាទ/ចាស លុប",
+    "totalRows": "សរុប",
+    "rows": "ជួរ",
+    "rowsPerPage": "ជួរក្នុងមួយទំព័រ៖",
+    "pageOf": "ទំព័រ",
+    "Of": "/"
+  },
+
+  "sizes": {
+    "title": "បញ្ជីទំហំ",
+    "searchPlaceholder": "ស្វែងរកទំហំ",
+    "manageAndTrack": "គ្រប់គ្រង និងតាមដានទំហំផលិតផល",
+    "totalSizes": "ទំហំសរុប",
+    "table": {
+      "id": "លេខសម្គាល់",
+      "title": "ទំហំ",
+      "actions": "សកម្មភាព"
+    },
+    "actions": {
+      "edit": "កែសម្រួល",
+      "delete": "លុប"
+    },
+    "noSizesFound": "រកមិនឃើញទំហំទេ។",
+    "confirmDelete": "បញ្ជាក់ការលុប",
+    "confirmDeleteMessage": "តើអ្នកប្រាកដថាចង់លុប",
+    "cancel": "បោះបង់",
+    "yesDelete": "បាទ/ចាស លុប",
+    "totalRows": "សរុប",
+    "rows": "ជួរ",
+    "rowsPerPage": "ជួរក្នុងមួយទំព័រ៖",
+    "pageOf": "ទំព័រ",
+    "Of": "/"
+  },
+
+  "colors": {
+    "title": "បញ្ជីពណ៌",
+    "searchPlaceholder": "ស្វែងរកតាមចំណងជើងពណ៌",
+    "manageAndTrack": "គ្រប់គ្រង និងតាមដានពណ៌ផលិតផល",
+    "totalColors": "ពណ៌សរុប",
+    "table": {
+      "id": "លេខសម្គាល់",
+      "colorTitle": "ចំណងជើងពណ៌",
+      "createdAt": "បង្កើតនៅ",
+      "actions": "សកម្មភាព"
+    },
+    "actions": {
+      "edit": "កែសម្រួល",
+      "delete": "លុប"
+    },
+    "noColorsFound": "រកមិនឃើញពណ៌ទេ។",
+    "confirmDelete": "បញ្ជាក់ការលុប",
+    "confirmDeleteMessage": "តើអ្នកប្រាកដថាចង់លុប",
+    "cancel": "បោះបង់",
+    "yesDelete": "បាទ/ចាស លុប",
+    "totalRows": "សរុប",
+    "rows": "ជួរ",
+    "rowsPerPage": "ជួរក្នុងមួយទំព័រ៖",
+    "pageOf": "ទំព័រ",
+    "Of": "/"
+  },
+
+  "users": {
+    "title": "បញ្ជីអ្នកប្រើប្រាស់",
+    "searchPlaceholder": "ស្វែងរកតាមឈ្មោះអ្នកប្រើប្រាស់",
+    "manageAndTrack": "គ្រប់គ្រង និងតាមដានគណនីអ្នកប្រើប្រាស់",
+    "totalUsers": "ចំនួនអ្នកប្រើប្រាស់សរុប",
+    "import": "បញ្ចូល អ្នកប្រើប្រាស់",
+    "export": "ទាញយក អ្នកប្រើប្រាស់",
+    "exportExcel": "ទាញយក Excel",
+    "exportPdf": "ទាញយក PDF",
+    "table": {
+      "id": "លេខសម្គាល់",
+      "name": "ឈ្មោះ",
+      "email": "អ៊ីមែល",
+      "role": "តួនាទី",
+      "createdAt": "បង្កើតនៅ",
+      "actions": "សកម្មភាព"
+    },
+    "actions": {
+      "edit": "កែសម្រួល",
+      "delete": "លុប"
+    },
+    "noUsersFound": "មិនមានអ្នកប្រើទេ។",
+    "confirmDelete": "បញ្ជាក់ការលុប",
+    "confirmDeleteMessage": "តើអ្នកប្រាកដថាចង់លុបអ្នកប្រើនេះ?",
+    "cancel": "បោះបង់",
+    "yesDelete": "បាទ/ចាស លុប",
+    "totalRows": "សរុប",
+    "rows": "ជួរ",
+    "rowsPerPage": "ជួរតាមទំព័រ៖",
+    "pageOf": "ទំព័រ",
+    "Of": "នៃ"
+  },
+
+  "invoices": {
+    "title": "បញ្ជីវិក្កយបត្រ",
+    "searchPlaceholder": "ស្វែងរកតាមលេខវិក្កយបត្រ ឬអតិថិជន",
+    "manageAndTrack": "គ្រប់គ្រង និងតាមដានវិក្កយបត្រ និងវិក្កយបត្ររបស់អតិថិជន",
+    "totalInvoice": "ចំនួនវិក្កយបត្រសរុប",
+    "table": {
+      "id": "លេខវិក្កយបត្រ",
+      "orderId": "លេខការបញ្ជាទិញ",
+      "customer": "អតិថិជន",
+      "phone": "លេខទូរស័ព្ទ",
+      "subTotal": "សរុបរង",
+      "totalAmount": "ចំនួនសរុប",
+      "currency": "រូបិយប័ណ្ណ",
+      "status": "ស្ថានភាពបង់ប្រាក់",
+      "createdAt": "បង្កើតនៅ",
+      "actions": "សកម្មភាព"
+    },
+    "status": {
+      "paid": "បានបង់ប្រាក់",
+      "unpaid": "មិនទាន់បង់ប្រាក់"
+    },
+    "actions": {
+      "view": "មើល",
+      "print": "បោះពុម្ព",
+      "delete": "លុប",
+      "download": "ទាញយក"
+    },
+    "noInvoicesFound": "រកមិនឃើញវិក្កយបត្រទេ។",
+    "totalRows": "សរុប",
+    "rows": "ជួរ",
+    "rowsPerPage": "ជួរក្នុងមួយទំព័រ៖",
+    "pageOf": "ទំព័រ"
+  },  
+  
+  "inventory": {
+    "title": "បញ្ជីស្តុក",
+    "searchPlaceholder": "ស្វែងរកតាមចំណងជើងផលិតផល",
+    "table": {
+      "id": "លេខសម្គាល់",
+      "productTitle": "ចំណងជើងផលិតផល",
+      "productCode": "កូដផលិតផល",
+      "currentStock": "ស្តុកបច្ចុប្បន្ន",
+      "quantityBooked": "បរិមាណដែលបានកុម្មង់",
+      "availableStock": "ស្តុកអាចប្រើបាន",
+      "status": "ស្ថានភាព",
+      "lastUpdated": "ធ្វើបច្ចុប្បន្នភាពចុងក្រោយ",
+      "actions": "សកម្មភាព"
+    },
+    "status": {
+      "inStock": "មានស្តុក",
+      "lowStock": "ស្តុកតិច",
+      "outOfStock": "អស់ស្តុក"
+    },
+    "actions": {
+      "updateStock": "ធ្វើបច្ចុប្បន្នភាពស្តុក",
+      "viewHistory": "មើលប្រវត្តិ"
+    },
+    "noInventoryFound": "រកមិនឃើញកំណត់ត្រាស្តុកទេ។",
+    "updateStock": {
+      "title": "ធ្វើបច្ចុប្បន្នភាពស្តុក",
+      "currentStock": "ស្តុកបច្ចុប្បន្ន",
+      "newQuantity": "បរិមាណថ្មី",
+      "enterQuantity": "បញ្ចូលបរិមាណថ្មី",
+      "update": "ធ្វើបច្ចុប្បន្នភាព",
+      "cancel": "បោះបង់"
+    },
+    "totalRows": "សរុប",
+    "rows": "ជួរ",
+    "rowsPerPage": "ជួរក្នុងមួយទំព័រ៖",
+    "pageOf": "ទំព័រ"
+  },
+  "orders": {
+    "title": "ការបញ្ជាទិញ",
+    "orderHistory": "ប្រវត្តិនៃការបញ្ជាទិញ",
+    "searchPlaceholder": "ស្វែងរកតាមលេខការបញ្ជាទិញ ឬអតិថិជន",
+    "exportButton": "នាំចេញ",
+    "backToOrder": "ត្រឡប់ទៅការបញ្ជាទិញ",
+    "manageAndTrack": "គ្រប់គ្រង និងតាមដានការបញ្ជាទិញរបស់អតិថិជនទាំងអស់",
+    "totalOrders": "ការបញ្ជាទិញសរុប",
+    "rowsPerPageLabel": "ជួរក្នុងមួយទំព័រ៖",
+    "pageOfLabel": "ទំព័រ {current} នៃ {total}",
+    "shoppingCart": "រទេះទិញទំនិញ",
+    "cartEmpty": "រទេះរបស់អ្នកទទេ",
+    "paymentMethod": "វិធីបង់ប្រាក់",
+    "allPhone": "ទូរស័ព្ទទាំងអស់",
+    "phoneNumber": "លេខទូរស័ព្ទ",
+    "table": {
+      "id": "លេខការបញ្ជាទិញ",
+      "customer": "អតិថិជន",
+      "productTitle": "ឈ្មោះផលិតផល",
+      "phone": "លេខទូរស័ព្ទ",
+      "items": "ទំនិញ",
+      "subTotal": "សរុបរង",
+      "discount": "បញ្ចុះតម្លៃ",
+      "total": "សរុប",
+      "status": "ស្ថានភាព",
+      "date": "កាលបរិច្ឆេទ",
+      "actions": "សកម្មភាព",
+      "products": "ផលិតផល",
+      "order": "លេខបញ្ជាទិញ"
+    },
+    "status": {
+      "paid": "បានបង់ប្រាក់",
+      "unpaid": "មិនទាន់បង់ប្រាក់",
+      "pending": "កំពុងរង់ចាំ",
+      "cancelled": "បានបោះបង់"
+    },
+    "actions": {
+      "view": "មើល",
+      "edit": "កែសម្រួល",
+      "delete": "លុប",
+      "invoice": "វិក្កយបត្រ",
+      "deleteButton": "លុប"
+    },
+    "noOrdersFound": "រកមិនឃើញការបញ្ជាទិញទេ។",
+    "confirmDelete": "បញ្ជាក់ការលុប",
+    "confirmDeleteMessage": "តើអ្នកប្រាកដថាចង់លុបការបញ្ជាទិញ",
+    "cancel": "បោះបង់",
+    "yesDelete": "បាទ/ចាស លុប",
+    "export": {
+      "excel": "នាំចេញ Excel",
+      "pdf": "នាំចេញ PDF"
+    },
+    "totalRows": "សរុប",
+    "rows": "ជួរ",
+    "rowsPerPage": "ជួរក្នុងមួយទំព័រ៖",
+    "pageOf": "ទំព័រ"
+  },
+  "footer": {
+    "copyright": "រក្សាសិទ្ធិ",
+    "allRightsReserved": "រក្សាសិទ្ធិទាំងអស់។"
+  }
+
+}

@@ -1,0 +1,388 @@
+{
+    "menu": {
+        "dashboard": "Dashboard",
+        "setting": "Setting",
+        "system": "System",
+        "audit_logs": "Audit Logs",
+        "product": "Product",
+        "list": "List",
+        "create": "Create",
+        "category": "Category",
+        "color": "Color",
+        "authentication": "Authentication",
+        "user": "User",
+        "role": "Role",
+        "customer": "Customer",
+        "brand": "Brand",
+        "maker": "Maker",
+        "size": "Size",
+        "order": "Order",
+        "invoice": "Invoice",
+        "inventory": "Inventory",
+        "verify": "Verify",
+        "telegram": "Telegram",
+        "verifyKey": "Verify Key",
+        "profile": "Profile",
+        "chat_support": "Chat Support"
+    },
+
+    "common": {
+        "search": "Search",
+        "admin": "ADMIN",
+        "export": "EXPORT"
+    },
+
+    "export": {
+        "pdf.title": "Export PDF",
+        "pdf.description": "PDF Spreadsheet",
+        "excel.title": "Export Excel",
+        "excel.description": "Microsoft Excel Spreadsheet"
+    },
+
+    "products": {
+        "title": "Products List",
+        "searchPlaceholder": "Search Phone Title",
+        "allColors": "All Colors",
+        "filter": "Filter",
+        "import": "IMPORT",
+        "manageAndTrack": "Manage and track all products in inventory",
+        "totalProducts": "Total Products",
+        "totalStock": "Total Stock",
+        "table": {
+            "id": "ID",
+            "image": "Image",
+            "title": "Title",
+            "code": "Code",
+            "price": "Price",
+            "stock": "Stock",
+            "updateStock": "Update Stock",
+            "status": "Status",
+            "actions": "Actions"
+        },
+        "status": {
+            "active": "Active",
+            "inactive": "Inactive"
+        },
+        "actions": {
+            "detail": "Detail",
+            "edit": "Edit",
+            "delete": "Delete",
+            "stock": "Stock"
+        },
+        "noProductsFound": "No products found.",
+        "confirmDelete": "Confirm Deletion",
+        "confirmDeleteMessage": "Are you sure you want to delete",
+        "cancel": "Cancel",
+        "yesDelete": "Yes, Delete",
+        "updateStockTitle": "Update Stock",
+        "updateStockDesc": "Adjust inventory levels for this product",
+        "product": "Product",
+        "color": "Color",
+        "currentStock": "Current stock",
+        "newStockQuantity": "New stock quantity",
+        "enterNewQuantity": "Enter new quantity",
+        "updateStock": "Update Stock",
+        "totalRows": "Total",
+        "rows": "rows",
+        "rowsPerPage": "Rows per page:",
+        "pageOf": "Page",
+        "Of": "of"
+    },
+
+    "categories": {
+        "title": "Categories List",
+        "searchPlaceholder": "Search Category",
+        "manageAndTrack": "Manage and organize product categories",
+        "totalCategories": "Total Categories",
+        "table": {
+            "id": "ID",
+            "title": "Title",
+            "actions": "Actions"
+        },
+        "actions": {
+            "edit": "Edit",
+            "delete": "Delete"
+        },
+        "noCategoriesFound": "No categories found.",
+        "confirmDelete": "Confirm Deletion",
+        "confirmDeleteMessage": "Are you sure you want to delete",
+        "cancel": "Cancel",
+        "yesDelete": "Yes, Delete",
+        "totalRows": "Total",
+        "rows": "rows",
+        "rowsPerPage": "Rows per page:",
+        "pageOf": "Page",
+        "Of": "of"
+    },
+
+    "brands": {
+        "title": "Brands List",
+        "searchPlaceholder": "Search Brand",
+        "manageAndTrack": "Manage and organize product brands",
+        "totalBrands": "Total Brands",
+        "table": {
+            "id": "ID",
+            "title": "Name",
+            "maker": "Maker",
+            "actions": "Actions"
+        },
+        "actions": {
+            "edit": "Edit",
+            "delete": "Delete"
+        },
+        "noBrandsFound": "No brands found.",
+        "confirmDelete": "Confirm Deletion",
+        "confirmDeleteMessage": "Are you sure you want to delete",
+        "cancel": "Cancel",
+        "yesDelete": "Yes, Delete",
+        "totalRows": "Total",
+        "rows": "rows",
+        "rowsPerPage": "Rows per page:",
+        "pageOf": "Page",
+        "Of": "of"
+    },
+
+    "makers": {
+        "title": "Makers List",
+        "searchPlaceholder": "Search Maker",
+        "manageAndTrack": "Manage and organize product makers",
+        "totalMakers": "Total Makers",
+        "table": {
+            "id": "ID",
+            "title": "Name",
+            "actions": "Actions"
+        },
+        "actions": {
+            "edit": "Edit",
+            "delete": "Delete"
+        },
+        "noMakersFound": "No makers found.",
+        "confirmDelete": "Confirm Deletion",
+        "confirmDeleteMessage": "Are you sure you want to delete",
+        "cancel": "Cancel",
+        "yesDelete": "Yes, Delete",
+        "totalRows": "Total",
+        "rows": "rows",
+        "rowsPerPage": "Rows per page:",
+        "pageOf": "Page",
+        "Of": "of"
+    },
+
+    "sizes": {
+        "title": "Sizes List",
+        "searchPlaceholder": "Search Size",
+        "manageAndTrack": "Manage and organize product sizes",
+        "totalSizes": "Total Sizes",
+        "table": {
+            "id": "ID",
+            "title": "Size",
+            "actions": "Actions"
+        },
+        "actions": {
+            "edit": "Edit",
+            "delete": "Delete"
+        },
+        "noSizesFound": "No sizes found.",
+        "confirmDelete": "Confirm Deletion",
+        "confirmDeleteMessage": "Are you sure you want to delete",
+        "cancel": "Cancel",
+        "yesDelete": "Yes, Delete",
+        "totalRows": "Total",
+        "rows": "rows",
+        "rowsPerPage": "Rows per page:",
+        "pageOf": "Page",
+        "Of": "of"
+    },
+
+    "colors": {
+        "title": "Colors List",
+        "searchPlaceholder": "Search by Color Title",
+        "manageAndTrack": "Manage and organize product colors",
+        "totalColors": "Total Color",
+        "table": {
+            "id": "ID",
+            "colorTitle": "Color Title",
+            "createdAt": "Created At",
+            "actions": "Actions"
+        },
+        "actions": {
+            "edit": "Edit",
+            "delete": "Delete"
+        },
+        "noColorsFound": "No colors found.",
+        "confirmDelete": "Confirm Deletion",
+        "confirmDeleteMessage": "Are you sure you want to delete",
+        "cancel": "Cancel",
+        "yesDelete": "Yes, Delete",
+        "totalRows": "Total",
+        "rows": "rows",
+        "rowsPerPage": "Rows per page:",
+        "pageOf": "Page",
+        "Of": "of"
+    },
+
+    "users": {
+        "title": "Users List",
+        "searchPlaceholder": "Search by User Name",
+        "manageAndTrack": "Manage and track all system user",
+        "totalUsers": "Total Users",
+        "import": "IMPORT",
+        "export": "EXPORT",
+        "exportExcel": "Export Excel",
+        "exportPdf": "Export PDF",
+        "table": {
+            "id": "ID",
+            "name": "Name",
+            "email": "Email",
+            "role": "Role",
+            "createdAt": "Created At",
+            "actions": "Actions"
+        },
+        "actions": {
+            "edit": "Edit",
+            "delete": "Delete"
+        },
+        "noUsersFound": "No users found.",
+        "confirmDelete": "Confirm Deletion",
+        "confirmDeleteMessage": "Are you sure you want to delete this user?",
+        "cancel": "Cancel",
+        "yesDelete": "Yes, Delete",
+        "totalRows": "Total",
+        "rows": "rows",
+        "rowsPerPage": "Rows per page:",
+        "pageOf": "Page",
+        "Of": "of"
+    },
+
+    "invoices": {
+        "title": "Invoices List",
+        "searchPlaceholder": "Search by Invoice ID or Customer",
+        "manageAndTrack": "Manage and track customer invoices and billing",
+        "totalInvoice": "Total Invoices",
+        "table": {
+            "id": "Invoice ID",
+            "orderId": "Order ID",
+            "customer": "Customer",
+            "subTotal": "Sub Total",
+            "totalAmount": "Total Amount",
+            "currency": "Currency",
+            "status": "Payment Status",
+            "createdAt": "Created At",
+            "actions": "Actions"
+        },
+        "status": {
+            "paid": "Paid",
+            "unpaid": "Unpaid"
+        },
+        "actions": {
+            "view": "View",
+            "print": "Print",
+            "delete": "Delete",
+            "download": "Download"
+        },
+        "noInvoicesFound": "No invoices found.",
+        "totalRows": "Total",
+        "rows": "rows",
+        "rowsPerPage": "Rows per page:",
+        "pageOf": "Page"
+    },
+    "inventory": {
+        "title": "Inventory List",
+        "searchPlaceholder": "Search by Product Title",
+        "table": {
+            "id": "ID",
+            "productTitle": "Product Title",
+            "productCode": "Product Code",
+            "currentStock": "Current Stock",
+            "quantityBooked": "Quantity Booked",
+            "availableStock": "Available Stock",
+            "status": "Status",
+            "lastUpdated": "Last Updated",
+            "actions": "Actions"
+        },
+        "status": {
+            "inStock": "In Stock",
+            "lowStock": "Low Stock",
+            "outOfStock": "Out of Stock"
+        },
+        "actions": {
+            "updateStock": "Update Stock",
+            "viewHistory": "View History"
+        },
+        "noInventoryFound": "No inventory records found.",
+        "updateStock": {
+            "title": "Update Stock",
+            "currentStock": "Current Stock",
+            "newQuantity": "New Quantity",
+            "enterQuantity": "Enter new quantity",
+            "update": "Update",
+            "cancel": "Cancel"
+        },
+        "totalRows": "Total",
+        "rows": "rows",
+        "rowsPerPage": "Rows per page:",
+        "pageOf": "Page"
+    },
+    "orders": {
+        "title": "Orders List",
+        "orderHistory": "Order History",
+        "totalOrders": "Total Orders",
+        "manageAndTrack": "Manage and track your orders",
+        "exportButton": "Export Orders",
+        "backToOrder": "Back to Orders",
+        "searchPlaceholder": "Search by Order ID or Customer",
+        "shoppingCart": "Shopping Cart",
+        "cartEmpty": "Your cart is empty",
+        "paymentMethod": "Payment Method",
+        "allPhone": "All Phone",
+        "table": {
+            "id": "Order ID",
+            "customer": "Customer",
+            "productTitle": "Product Title",
+            "phone": "Phone",
+            "items": "Items",
+            "subTotal": "Sub Total",
+            "discount": "Discount",
+            "total": "Total",
+            "status": "Status",
+            "date": "Date",
+            "actions": "Actions"
+        },
+        "status": {
+            "paid": "Paid",
+            "unpaid": "Unpaid",
+            "pending": "Pending",
+            "cancelled": "Cancelled"
+        },
+        "actions": {
+            "view": "View",
+            "edit": "Edit",
+            "delete": "Delete",
+            "invoice": "Invoice"
+        },
+        "noOrdersFound": "No orders found.",
+        "confirmDelete": "Confirm Deletion",
+        "confirmDeleteMessage": "Are you sure you want to delete order",
+        "cancel": "Cancel",
+        "yesDelete": "Yes, Delete",
+        "export": {
+            "excel": "Export Excel",
+            "pdf": "Export PDF"
+        },
+        "phoneNumber": "Phone Number",
+        "totalRows": "Total",
+        "rows": "rows",
+        "rowsPerPage": "Rows per page:",
+        "pageOf": "Page"
+    },
+    "customers": {
+        "title": "Customers List",
+        "phone": "Phone Number",
+        "enterName": "Enter customer name...",
+        "enterPhone": "Enter phone number..."
+    },
+    "footer": {
+        "copyright": "Copyright",
+        "allRightsReserved": "All rights reserved."
+    }
+}

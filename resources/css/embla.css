@@ -1,0 +1,47 @@
+/* Embla Carousel Styles */
+.embla {
+  overflow: hidden;
+  width: 100%;
+  padding: 0 10%; /* 10% padding on each side for peek effect */
+}
+
+.embla__container {
+  display: flex;
+  touch-action: pan-y pinch-zoom;
+  gap: 1rem; /* Consistent gap between all slides */
+}
+
+.embla__slide {
+  transform: translate3d(0, 0, 0);
+  flex: 0 0 80%; /* Each slide takes 80% of the visible area */
+  min-width: 0;
+}
+
+/* Smooth transitions */
+.embla__slide img {
+  transition: transform 0.3s ease;
+}
+
+.embla__slide:hover img {
+  transform: scale(1.02);
+}
+
+/* Ensure proper stacking */
+.embla__slide {
+  position: relative;
+  z-index: 1;
+}
+
+.embla__slide.is-selected {
+  z-index: 2;
+}
+
+/* Add perspective for 3D effect */
+.embla__viewport {
+  perspective: 1000px;
+}
+
+/* Smooth scaling transition */
+.embla__slide > div {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}

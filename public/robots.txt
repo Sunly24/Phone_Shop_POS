@@ -1,0 +1,32 @@
+User-agent: *
+
+# Allow public pages
+Allow: /
+Allow: /shop
+Allow: /product/
+Allow: /about
+Allow: /contact
+
+# Block admin and auth pages
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /login
+Disallow: /register
+Disallow: /users
+Disallow: /roles
+Disallow: /customers
+Disallow: /products/create
+Disallow: /products/*/edit
+Disallow: /orders
+Disallow: /invoices
+Disallow: /categories
+Disallow: /brands
+Disallow: /makers
+Disallow: /sizes
+Disallow: /colors
+Disallow: /profile
+Disallow: /audit-logs
+Disallow: /telegram
+
+# Sitemap location
+Sitemap: https://jongban.e-khmer.com/sitemap.xml

@@ -1,0 +1,242 @@
+@import './embla.css';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base font styles */
+:root {
+    --font-system: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-khmer: 'Noto Serif Khmer', 'Khmer OS Siemreap', 'Khmer OS System', var(--font-system);
+}
+
+/* Default system font for everything */
+body {
+    font-family: var(--font-system);
+}
+
+/* Khmer text only */
+[lang="km"],
+.khmer-text {
+    font-family: var(--font-khmer);
+    line-height: 2;
+}
+
+/* Preserve English text when in Khmer mode */
+[data-lang="kh"] [lang="en"],
+[data-lang="kh"] .latin-text {
+    font-family: var(--font-system) !important;
+    line-height: normal;
+}
+
+/* Apply Khmer font only to elements marked as Khmer */
+[data-lang="kh"] [lang="km"],
+[data-lang="kh"] .khmer-text {
+    font-family: var(--font-khmer) !important;
+    line-height: 2;
+    font-feature-settings: "kern" 1, "mark" 1, "mkmk" 1;
+}
+
+/* Custom styles */
+.text-primary {
+    color: #4A6CF7;
+}
+
+/* Profile Photo Sizing Fix - Maintain consistent size when sidebar is collapsed */
+.user-panel img {
+    width: 2.1rem !important;
+    height: 2.1rem !important;
+    min-width: 2.1rem !important;
+    min-height: 2.1rem !important;
+    object-fit: cover;
+}
+
+/* Center the profile photo when sidebar is collapsed */
+.sidebar-mini.sidebar-collapse .main-sidebar .user-panel {
+    text-align: center;
+}
+
+.sidebar-mini.sidebar-collapse .main-sidebar .user-panel .image {
+    display: block !important;
+    float: none !important;
+    padding-left: 0 !important;
+    width: 100%;
+    text-align: center;
+}
+
+/* Ensure profile photo stays consistent size during transitions */
+.sidebar-mini.sidebar-collapse .main-sidebar .user-panel img {
+    width: 2.1rem !important;
+    height: 2.1rem !important;
+    margin: 0 auto;
+}
+
+/* When sidebar expands on hover, maintain proper layout */
+.sidebar-mini.sidebar-collapse .main-sidebar:not(.sidebar-no-expand):hover .user-panel,
+.sidebar-mini.sidebar-collapse .main-sidebar:not(.sidebar-no-expand).sidebar-focused .user-panel {
+    text-align: left;
+}
+
+.sidebar-mini.sidebar-collapse .main-sidebar:not(.sidebar-no-expand):hover .user-panel .image,
+.sidebar-mini.sidebar-collapse .main-sidebar:not(.sidebar-no-expand).sidebar-focused .user-panel .image {
+    display: inline-block !important;
+    padding-left: 0.8rem;
+    width: auto;
+    text-align: left;
+}
+
+/* Input focus styles */
+.form-input:focus {
+    border-color: #4A6CF7;
+    box-shadow: 0 0 0 1px #4A6CF7;
+}
+
+/* Primary button styles */
+.btn-primary {
+    @apply bg-[#4A6CF7] text-white rounded-md py-3 px-4 hover:bg-[#3651d4] transition-colors;
+}
+
+/* Sidebar Navigation Icon Styles */
+.nav-sidebar .nav-icon {
+    color: #737373 !important;
+    transition: color 0.3s ease;
+    margin-right: 24px !important;
+}
+
+.nav-sidebar .nav-link.active .nav-icon {
+    color: white !important;
+}
+
+/* Sidebar Navigation Text Styles */
+.nav-sidebar .nav-link {
+    color: #737373 !important;
+    transition: color 0.3s ease;
+}
+
+.nav-sidebar .nav-link.active {
+    color: white !important;
+}
+
+/* Sidebar Sub-menu (Treeview) Styles */
+.nav-sidebar .nav-treeview .nav-link {
+    color: #737373 !important;
+    margin: 2px 0;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.nav-sidebar .nav-treeview .nav-link:hover {
+    background-color: #cfe6fa !important;
+    color: #737373 !important;
+}
+
+.nav-sidebar .nav-treeview .nav-link.active {
+    background-color: #71baf6 !important;
+    color: white !important;
+}
+
+/* Custom Scrollbar Styles */
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #6c757d #f8f9fa;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #f8f9fa;
+    border-radius: 4px;
+    border: 1px solid #e9ecef;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #6c757d 0%, #495057 100%);
+    border-radius: 4px;
+    border: 1px solid #adb5bd;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #495057 0%, #343a40 100%);
+    border-color: #6c757d;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(180deg, #343a40 0%, #212529 100%);
+}
+
+.custom-scrollbar::-webkit-scrollbar-corner {
+    background: #f8f9fa;
+}
+
+/* Content Scrollbar */
+.content-scroll-container {
+    scrollbar-width: thin;
+    scrollbar-color: #007bff #f8f9fa;
+}
+
+.content-scroll-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.content-scroll-container::-webkit-scrollbar-track {
+    background: #f8f9fa;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+}
+
+.content-scroll-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #007bff 0%, #0056b3 100%);
+    border-radius: 5px;
+    border: 1px solid #0069d9;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.content-scroll-container::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #0056b3 0%, #004085 100%);
+    border-color: #0056b3;
+}
+
+/* Button styling for hamburger menu */
+.btn-link {
+    font-weight: 400;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.btn-link:focus {
+    text-decoration: underline;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-link:disabled {
+    color: #6c757d;
+    pointer-events: none;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.animate-slideInRight {
+    animation: slideInRight 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.your-chat-widget-class {
+  z-index: 40 !important;
+}
